@@ -1,13 +1,5 @@
 - type: tgchannel
   options:
-    channel: clashnodechannel
-    num: 200
-- type: tgchannel
-  options:
-    channel: V2List
-    num: 200
-- type: tgchannel
-  options:
     channel: free_proxy_001
     num: 200
 - type: tgchannel
@@ -28,28 +20,12 @@
     num: 200
 - type: tgchannel
   options:
-    channel: WangCai_1
-    num: 500
-- type: tgchannel
-  options:
-    channel: sharingnode
-    num: 200
-- type: tgchannel
-  options:
-    channel: app_jiedian
-    num: 200
-- type: tgchannel
-  options:
     channel: baipiao01
     num: 200
 - type: tgchannel
   options:
     channel: p2psharing
     num: 500
-- type: tgchannel
-  options:
-    channel: Jsnzk
-    num: 700
 - type: tgchannel
   options:
     channel: airproxies
@@ -120,22 +96,6 @@
     num: 50
 - type: tgchannel
   options:
-    channel: ssList
-    num: 200
-- type: tgchannel
-  options:
-    channel: SSRSUB
-    num: 200
-- type: tgchannel
-  options:
-    channel: FreeSSRNode
-    num: 200
-- type: tgchannel
-  options:
-    channel: ssrlists
-    num: 200
-- type: tgchannel
-  options:
     channel: ssrshares
     num: 200
 - type: tgchannel
@@ -144,23 +104,7 @@
     num: 100
 - type: tgchannel
   options:
-    channel: ssrtool_crack
-    num: 100
-- type: tgchannel
-  options:
-    channel: vmessr
-    num: 200
-- type: tgchannel
-  options:
-    channel: FreeSSR666
-    num: 200
-- type: tgchannel
-  options:
     channel: fanqiang666
-    num: 200
-- type: tgchannel
-  options:
-    channel: jiedianfenxiang
     num: 200
 - type: tgchannel
   options:
