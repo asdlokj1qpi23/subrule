@@ -175,3 +175,5 @@ https://raw.githubusercontent.com/du5/free/master/sub.list
 https://sub.sharecentre.online/sub
 http://123.lcq25938.top:9080/clash/proxies
 https://www.suncloud.fun/link/ja3OIcMTrky6VhN6?mu=1&extend=1
+https://raw.githubusercontent.com/snakem982/proxypool/main/clash18fdb.yaml
+https://raw.githubusercontent.com/snakem982/proxypool/main/proxies.txt
