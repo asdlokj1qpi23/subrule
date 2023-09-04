@@ -178,3 +178,4 @@ https://www.suncloud.fun/link/ja3OIcMTrky6VhN6?mu=1&extend=1
 https://raw.githubusercontent.com/snakem982/proxypool/main/clash18fdb.yaml
 https://raw.githubusercontent.com/snakem982/proxypool/main/proxies.txt
 https://wanshanziwo.eu.org/clash/proxies
+https://sub.pmsub.me/clash.yaml
