@@ -181,3 +181,4 @@ https://wanshanziwo.eu.org/clash/proxies
 https://sub.pmsub.me/clash.yaml
 https://sub.pmsub.me/base64
 https://github.com/mianfeifq/share
+https://dingyue.starnetcn.com/api/v1/client/subscribe?token=0ddc534e7f0a8de813baa1dc6f72ad2a&flag=clash
