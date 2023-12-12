@@ -117,7 +117,7 @@
             "tag": "selector",
             "type": "selector",
             "outbounds": [
-                "自动选择",
+                "select",
                 "新加坡网飞",
                 "香港网飞",
                 "日本网飞",
@@ -127,7 +127,7 @@
             ]
         },
         {
-            "tag": "自动选择",
+            "tag": "select",
             "type": "urltest",
             "outbounds": [
                 "include: .*"
@@ -174,6 +174,18 @@
             "outbounds": [
                 "include: .*?(NF|奈飞|解锁|Netflix|NETFLIX|Media|netflix|media)"
             ]
+        },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "block",
+            "type": "block"
+        },
+        {
+            "tag": "dns-out",
+            "type": "dns"
         }
     ],
     "route": {
