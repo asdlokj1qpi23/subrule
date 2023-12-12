@@ -138,48 +138,42 @@
             "type": "urltest",
             "outbounds": [
                 "include: .*?(NF|奈飞|解锁|Netflix|NETFLIX|Media|netflix|media).*?(新加坡|坡|狮城|SG|Singapore|sg).*"
-            ],
-            "url": "https://netflix.com"
+            ]
         },
         {
             "tag": "香港网飞",
             "type": "urltest",
             "outbounds": [
                 "include: .*?(NF|奈飞|解锁|Netflix|NETFLIX|Media|netflix|media).*?(港|HK|Hong Kong).*"
-            ],
-            "url": "https://netflix.com"
+            ]
         },
         {
             "tag": "日本网飞",
             "type": "urltest",
             "outbounds": [
                 "include: .*?(NF|奈飞|解锁|Netflix|NETFLIX|Media|netflix|media).*?(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|jp).*"
-            ],
-            "url": "https://netflix.com"
+            ]
         },
         {
             "tag": "美国网飞",
             "type": "urltest",
             "outbounds": [
                 "include: .*?(NF|奈飞|解锁|Netflix|NETFLIX|Media|netflix|media).*?(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|us|United States).*"
-            ],
-            "url": "https://netflix.com"
+            ]
         },
         {
             "tag": "台湾网飞",
             "type": "urltest",
             "outbounds": [
                 "include: .*?(NF|奈飞|解锁|Netflix|NETFLIX|Media|netflix|media).*?(台|新北|彰化|TW|Taiwan|tw).*"
-            ],
-            "url": "https://netflix.com"
+            ]
         },
         {
             "tag": "网飞选择",
             "type": "selector",
             "outbounds": [
                 "include: .*?(NF|奈飞|解锁|Netflix|NETFLIX|Media|netflix|media)"
-            ],
-            "url": "https://netflix.com"
+            ]
         }
     ],
     "route": {
