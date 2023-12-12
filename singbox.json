@@ -1,0 +1,219 @@
+{
+    "log": {},
+    "dns": {
+        "servers": [
+            {
+                "tag": "remote",
+                "address": "https://1.1.1.1/dns-query",
+                "detour": "select"
+            },
+            {
+                "tag": "local",
+                "address": "https://223.5.5.5/dns-query",
+                "detour": "direct"
+            },
+            {
+                "address": "rcode://success",
+                "tag": "block"
+            },
+            {
+                "address": "fakeip",
+                "tag": "fakeip"
+            }
+        ],
+        "rules": [
+            {
+                "outbound": [
+                    "any"
+                ],
+                "server": "local"
+            },
+            {
+                "disable_cache": true,
+                "geosite": [
+                    "category-ads-all"
+                ],
+                "server": "block"
+            },
+            {
+                "query_type": [
+                    "A",
+                    "AAAA"
+                ],
+                "rewrite_ttl": 1,
+                "server": "fakeip"
+            },
+            {
+                "clash_mode": "global",
+                "server": "remote"
+            },
+            {
+                "clash_mode": "direct",
+                "server": "local"
+            },
+            {
+                "type": "logical",
+                "mode": "and",
+                "rules": [
+                    {
+                        "geosite": "cn@!cn",
+                        "invert": true
+                    },
+                    {
+                        "geosite": [
+                            "cn",
+                            "geolocation-!cn@cn"
+                        ]
+                    }
+                ],
+                "server": "local"
+            }
+        ],
+        "strategy": "prefer_ipv4",
+        "independent_cache": true,
+        "fakeip": {
+            "enabled": true,
+            "inet4_range": "198.18.0.0/15",
+            "inet6_range": "fc00::/18"
+        }
+    },
+    "inbounds": [
+        {
+            "type": "tun",
+            "inet4_address": "172.19.0.1/30",
+            "inet6_address": "2001:0470:f9da:fdfa::1/64",
+            "domain_strategy": "prefer_ipv4",
+            "strict_route": true,
+            "mtu": 9000,
+            "endpoint_independent_nat": true,
+            "auto_route": true,
+            "platform": {
+                "http_proxy": {
+                    "enabled": true,
+                    "server": "127.0.0.1",
+                    "server_port": 2334
+                }
+            }
+        },
+        {
+            "type": "socks",
+            "tag": "socks-in",
+            "listen": "127.0.0.1",
+            "domain_strategy": "prefer_ipv4",
+            "listen_port": 2333,
+            "users": []
+        },
+        {
+            "type": "mixed",
+            "tag": "mixed-in",
+            "domain_strategy": "prefer_ipv4",
+            "listen": "127.0.0.1",
+            "listen_port": 2334,
+            "users": []
+        }
+    ],
+    "outbounds": [
+        {
+            "tag": "selector",
+            "type": "selector",
+            "outbounds": [
+                "自动选择",
+                "新加坡网飞",
+                "香港网飞",
+                "日本网飞",
+                "美国网飞",
+                "台湾网飞",
+                "网飞选择"
+            ]
+        },
+        {
+            "tag": "自动选择",
+            "type": "urltest",
+            "outbounds": [
+                "include: *"
+            ]
+        },
+        {
+            "tag": "新加坡网飞",
+            "type": "urltest",
+            "outbounds": [
+                "include: .*?(NF|奈飞|解锁|Netflix|NETFLIX|Media|netflix|media).*?(新加坡|坡|狮城|SG|Singapore|sg).*"
+            ],
+            "url": "https://netflix.com",
+        },
+        {
+            "tag": "香港网飞",
+            "type": "urltest",
+            "outbounds": [
+                "include: .*?(NF|奈飞|解锁|Netflix|NETFLIX|Media|netflix|media).*?(港|HK|Hong Kong).*"
+            ],
+            "url": "https://netflix.com",
+        },
+        {
+            "tag": "日本网飞",
+            "type": "urltest",
+            "outbounds": [
+                "include: .*?(NF|奈飞|解锁|Netflix|NETFLIX|Media|netflix|media).*?(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|jp).*"
+            ],
+            "url": "https://netflix.com",
+        },
+        {
+            "tag": "美国网飞",
+            "type": "urltest",
+            "outbounds": [
+                "include: .*?(NF|奈飞|解锁|Netflix|NETFLIX|Media|netflix|media).*?(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|us|United States).*"
+            ],
+            "url": "https://netflix.com",
+        },
+        {
+            "tag": "台湾网飞",
+            "type": "urltest",
+            "outbounds": [
+                "include: .*?(NF|奈飞|解锁|Netflix|NETFLIX|Media|netflix|media).*?(台|新北|彰化|TW|Taiwan|tw).*"
+            ],
+            "url": "https://netflix.com",
+        },
+        {
+            "tag": "网飞选择",
+            "type": "selector",
+            "outbounds": [
+                "include: .*?(NF|奈飞|解锁|Netflix|NETFLIX|Media|netflix|media)"
+            ],
+            "url": "https://netflix.com",
+        },
+    ],
+    "route": {
+        "rules": [
+            {
+                "geosite": "category-ads-all",
+                "outbound": "block"
+            },
+            {
+                "port": 53,
+                "outbound": "dns-out"
+            },
+            {
+                "clash_mode": "direct",
+                "outbound": "direct"
+            },
+            {
+                "clash_mode": "global",
+                "outbound": "select"
+            },
+            {
+                "geoip": [
+                    "cn",
+                    "private"
+                ],
+                "outbound": "direct"
+            }
+        ],
+        "auto_detect_interface": true
+    },
+    "experimental": {
+        "clash_api": {
+            "external_controller": "127.0.0.1:9090",
+            "secret": ""
+        }
+    }
+}
