@@ -180,7 +180,7 @@
                 "include: .*?(NF|奈飞|解锁|Netflix|NETFLIX|Media|netflix|media)"
             ],
             "url": "https://netflix.com",
-        },
+        }
     ],
     "route": {
         "rules": [
