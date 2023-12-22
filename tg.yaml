@@ -109,4 +109,12 @@
 - type: tgchannel
   options:
     channel: wxdy666
-    num: 50
+    num: 200
+- type: tgchannel
+  options:
+    channel: xhjvpn
+    num: 200
+- type: tgchannel
+  options:
+    channel: freeVPNjd
+    num: 200
