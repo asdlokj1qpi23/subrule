@@ -4,10 +4,6 @@
     num: 200
 - type: tgchannel
   options:
-    channel: ssrList
-    num: 200
-- type: tgchannel
-  options:
     channel: univstar
     num: 500
 - type: tgchannel
@@ -18,14 +14,6 @@
   options:
     channel: baipiao01
     num: 200
-- type: tgchannel
-  options:
-    channel: p2psharing
-    num: 500
-- type: tgchannel
-  options:
-    channel: airproxies
-    num: 300
 - type: tgchannel
   options:
     channel: aifenxiang2020
@@ -92,16 +80,8 @@
     num: 50
 - type: tgchannel
   options:
-    channel: ssrshares
-    num: 200
-- type: tgchannel
-  options:
     channel: ssrtool
     num: 100
-- type: tgchannel
-  options:
-    channel: fanqiang666
-    num: 200
 - type: tgchannel
   options:
     channel: freeshadowsock
