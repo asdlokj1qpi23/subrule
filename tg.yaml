@@ -16,10 +16,6 @@
     num: 200
 - type: tgchannel
   options:
-    channel: ShareCentrePro
-    num: 200
-- type: tgchannel
-  options:
     channel: baipiao01
     num: 200
 - type: tgchannel
@@ -112,5 +108,5 @@
     num: 200
 - type: tgchannel
   options:
-    channel: ShareCentrePro
-    num: 200
+    channel: wxdy666
+    num: 50
