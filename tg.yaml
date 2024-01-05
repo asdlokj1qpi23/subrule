@@ -16,10 +16,6 @@
     num: 200
 - type: tgchannel
   options:
-    channel: aifenxiang2020
-    num: 300
-- type: tgchannel
-  options:
     channel: ShareCentrePro
     num: 50
 - type: tgchannel
@@ -101,10 +97,6 @@
 - type: tgchannel
   options:
     channel: jiedian_share
-    num: 200
-- type: tgchannel
-  options:
-    channel: baipiaowansui
     num: 200
 - type: tgchannel
   options:
