@@ -98,3 +98,75 @@
   options:
     channel: freeVPNjd
     num: 200
+- type: tgchannel
+  options:
+    channel: jiedian_share
+    num: 200
+- type: tgchannel
+  options:
+    channel: baipiaowansui
+    num: 200
+- type: tgchannel
+  options:
+    channel: FreeVpnChina
+    num: 200
+- type: tgchannel
+  options:
+    channel: masco899
+    num: 200
+- type: tgchannel
+  options:
+    channel: dingyue_Center
+    num: 200
+- type: tgchannel
+  options:
+    channel: baipiaozero
+    num: 200
+- type: tgchannel
+  options:
+    channel: kejixm123
+    num: 200
+- type: tgchannel
+  options:
+    channel: zerobaipiao
+    num: 200
+- type: tgchannel
+  options:
+    channel: baipiaowansui
+    num: 200
+- type: tgchannel
+  options:
+    channel: freeV2rayi
+    num: 200
+- type: tgchannel
+  options:
+    channel: aifenxiang2020
+    num: 200
+- type: tgchannel
+  options:
+    channel: souqun8816
+    num: 200
+- type: tgchannel
+  options:
+    channel: jiedianF
+    num: 200
+- type: tgchannel
+  options:
+    channel: souqun8817
+    num: 200
+- type: tgchannel
+  options:
+    channel: ZDYZ2
+    num: 200
+- type: tgchannel
+  options:
+    channel: haoshangle
+    num: 200
+- type: tgchannel
+  options:
+    channel: baipiao163
+    num: 200
+- type: tgchannel
+  options:
+    channel: mfjdpd
+    num: 200
