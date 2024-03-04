@@ -32,10 +32,6 @@
     num: 50
 - type: tgchannel
   options:
-    channel: baipiaowansui
-    num: 50
-- type: tgchannel
-  options:
     channel: freeV2rayi
     num: 50
 - type: tgchannel
@@ -161,4 +157,40 @@
 - type: tgchannel
   options:
     channel: mfjdpd
+    num: 200
+- type: tgchannel
+  options:
+    channel: forwardv2ray
+    num: 200
+- type: tgchannel
+  options:
+    channel: bpjzx2
+    num: 200
+- type: tgchannel
+  options:
+    channel: JiedianSsr
+    num: 200
+- type: tgchannel
+  options:
+    channel: gekujd
+    num: 200
+- type: tgchannel
+  options:
+    channel: FreeV2rays
+    num: 200
+- type: tgchannel
+  options:
+    channel: V2ray60
+    num: 200
+- type: tgchannel
+  options:
+    channel: hkaa0
+    num: 200
+- type: tgchannel
+  options:
+    channel: jiuJieD
+    num: 200
+- type: tgchannel
+  options:
+    channel: mftizi
     num: 200
