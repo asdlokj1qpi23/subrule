@@ -268,3 +268,12 @@ https://timell.pages.dev/clash/proxies
 https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt
 https://raw.githubusercontent.com/markbang/chromegopacs/main/hy2pac.txt
+https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/zyfxs.txt
+https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/merged.txt
+https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/blues.txt
+https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/nodefree.txt
+https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/openrunner.txt
+https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/v2rayshare.txt
+https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/wenode.txt
+https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/yudou66.txt
+https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/zyfxs.txt
