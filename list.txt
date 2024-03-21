@@ -62,7 +62,6 @@ https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3QvcyFBcWNyX0lvTkZNV0FlX21WLWxnM
 https://sub.sharecentre.online/clash/scp.yml
 http://hazz.win/KmpQdY
 https://clashsub.com/free-subscribe/
-http://104.168.244.47:12580/clash/proxies
 http://150.230.195.209:12580/clash/proxies
 http://174.137.58.32:12580/clash/proxies
 https://proxy.crazygeeky.com/clash/proxies
