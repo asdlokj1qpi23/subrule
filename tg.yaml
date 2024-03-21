@@ -48,10 +48,6 @@
     num: 50
 - type: tgchannel
   options:
-    channel: jiuJieD
-    num: 50
-- type: tgchannel
-  options:
     channel: hkaa0
     num: 50
 - type: tgchannel
@@ -100,19 +96,11 @@
     num: 200
 - type: tgchannel
   options:
-    channel: masco899
-    num: 200
-- type: tgchannel
-  options:
     channel: dingyue_Center
     num: 200
 - type: tgchannel
   options:
     channel: baipiaozero
-    num: 200
-- type: tgchannel
-  options:
-    channel: kejixm123
     num: 200
 - type: tgchannel
   options:
@@ -125,10 +113,6 @@
 - type: tgchannel
   options:
     channel: freeV2rayi
-    num: 200
-- type: tgchannel
-  options:
-    channel: aifenxiang2020
     num: 200
 - type: tgchannel
   options:
@@ -152,10 +136,6 @@
     num: 200
 - type: tgchannel
   options:
-    channel: baipiao163
-    num: 200
-- type: tgchannel
-  options:
     channel: mfjdpd
     num: 200
 - type: tgchannel
@@ -168,10 +148,6 @@
     num: 200
 - type: tgchannel
   options:
-    channel: JiedianSsr
-    num: 200
-- type: tgchannel
-  options:
     channel: gekujd
     num: 200
 - type: tgchannel
@@ -180,17 +156,9 @@
     num: 200
 - type: tgchannel
   options:
-    channel: V2ray60
-    num: 200
-- type: tgchannel
-  options:
     channel: hkaa0
     num: 200
 - type: tgchannel
   options:
     channel: jiuJieD
-    num: 200
-- type: tgchannel
-  options:
-    channel: mftizi
     num: 200
