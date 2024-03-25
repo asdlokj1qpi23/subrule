@@ -77,3 +77,4 @@ https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/openrunner.txt
 https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/v2rayshare.txt
 https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/wenode.txt
 https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/yudou66.txt
+https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/vless
